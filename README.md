@@ -1,2 +1,7 @@
-# semestralne-zadania-semestralne-zadanie-72256-72367
-# semestralne-zadania-semestralne-zadanie-72256-72367
+# DOVI - Semestrálne zadanie
+----
+#### AP LOAD BALANCE BASED HANDOVER IN SOFTWARE DEFINED WIFI SYSTEMS
+###### Marko Moravèík, Matúš Sosòak
+----
+Dokumentácia k projektu sa nachádza v 
+> docs/
