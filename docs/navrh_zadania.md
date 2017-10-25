@@ -12,7 +12,7 @@ V dnešnej dobe je pre sieovıch operátorov problémom zmeni v bezdrôtovıch systé
 
 Pre riešenie nášho projektu sme sa rozhodli poui operaènı systém Windows 10 a  simulátor s názvom Mininet. V tomto simulátore si najprv vytvoríme 3 prístupové body a na kadı z nich pripojíme urèitı poèet klientov pomocou bezdrôtovej siete Wi-Fi. Potom jeden z tıchto prístupovıch bodov preaíme tak, e naòho pripojíme viacero klientov a budeme sledova, èi náš algoritmus, ktorı je nišie popísanı vyhodnotí situáciu správne a prepne u dlhšie pripojenıch klientov z preaeného prístupového bodu na inı. Všetky doteraz známe algoritmy sa zaoberajú najmä tım, e sa snaia priradi novıch klientov do AP, ktorá je najmenej vyaená ale neriešia zmenu u pripojenıch klientov v prípade záae AP, preto sme sa rozhodli skúma túto problematiku práve z tohto h¾adiska.
 
- ![image1](/images/Topology_WS_AP.png)
+![image1](semestralne-zadania-semestralne-zadanie-72256-72367/docs/images/Topology_WS_AP.png)
 
 *Obr.1 Schéma návrhu*
 
@@ -54,7 +54,7 @@ Autori v [4] sa zamerali na mód infraštruktúry, kde riešia problémy zaaenie me
 
 Na obrázku 2(a) je moné vidie rozdelenie 7 bezdrôtovıch staníc, ktoré sú napojené na AP1 a len 2 na AP2 a 3 na AP3. Takéto rozdelenie môe spôsobi stratu paketov na AP1 (zlá funkcia siete) v porovnaní s AP2 a AP3. Takáto situácia dokáe by vyriešená vyrovnaním poètu staníc medzi všetkımi AP. Na obrázku 2(b) môeme vidie rovnomerné rozdelenie staníc medzi AP, po aplikovaní vhodného algoritmu vyváenie záae. To vedie k zlepšeniu funkcii siete.
 
-  ![image2](/images/RW_stations_assignment.png)
+![image2](semestralne-zadania-semestralne-zadanie-72256-72367/docs/images/RW_stations_assignment.png)
 
 *Obr. 2: (a) Asymetria v priraïovaní staníc
 (b) Symetria v priraïovaní staníc*
@@ -77,13 +77,13 @@ Pri dynamickom prístupe, pripojenie WS na dané AP, záleí od poètu u pripojenıc
 
 Na zaèiatku fázy kadého AP, je AP informované o existencii inıch AP v jeho okolí, pouitím komunikaèného protokolu IEEE, navrhnutého pre servis roamingovıch sluieb. Jedná sa o Inter Access Point Protocol (IAPP), ktorı prenáša všetky potrebné informácie, èo dokazuje, e AP sluba má rovnakú LAN. V tom istom èase, aktívne AP preh¾adá kanály, aby zistil ktoré AP sú susedmi. Okrem toho je informovanı o operaènıch kanáloch susedného AP. Tieto informácie pouíva na to, aby zaèali pouíva ako operaènı kanál ten, v ktorom je rušenie od susedného AP èo najnišie. To vedie k najlepšej kvalite komunikácie s WS. Táto úroveò algoritmu vyváenia zaaenia je skôr inicializaènou úrovòou, kde sú podmienky operácie siete normalizované. Je to potrebná úroveò, pretoe väèšina sieovıch administrátorov ignoruje základné aspekty bezdrôtovıch sietí. Doteraz neexistuje iadny AP s úrovòou automatického vıberu kanála pre AP kvôli akostiam pri implementácii. Èo sa tıka poèiatoèného operaèného kanála, je zvolenı ako 1 alebo 6 alebo 11 (pre USA s 1 a 14 kanálmi), ako je to znázornené na obrázku 2. Rovnaká vzdialenos medzi tımito kanálmi (1, 6, 11 ...) poskytuje minimálnu interferenciu medzi susediacimi AP.
 
-  ![image3](/images/RW_AP_channels.png)
+![image3](semestralne-zadania-semestralne-zadanie-72256-72367/docs/images/RW_AP_channels.png)
 
 *Obr. 3: Poèiatoènı automatickı vıber kanálu pre AP v pásme 14 kanálov*
 
 **Úroveò rozhodovania o pripojení stanice k AP**
 
- ![image4](/images/RW_AP_WS_association.png)
+![image4](semestralne-zadania-semestralne-zadanie-72256-72367/docs/images/RW_AP_WS_association.png)
 
 *Obr. 4: Postup na úrovni rozhodovania o pripojení*
 
